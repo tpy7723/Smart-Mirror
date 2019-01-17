@@ -29,12 +29,13 @@ def sayhi():
             info.append(td.get_text())
         data2.append(info)
     data = data2
-    #print (data[1])        #['11409327', 'lalalalz', '13549', '틀렸습니다', '', '', 'C++14', '878', '2초 전']
+    print (data[1])        #['11409327', 'lalalalz', '13549', '틀렸습니다', '', '', 'C++14', '878', '2초 전']
 
     socketio.emit('mise', {'data': data}) # 데이터 전송
 
 @socketio.on('mise') # 해당 데이터를 받으면 아래 함수 실행
 def test_message():
+    print ('start')
     socketio.emit('mise', {'data': data})
     
 
