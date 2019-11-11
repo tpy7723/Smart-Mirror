@@ -1,4 +1,4 @@
-# 독거노인 우울증 치료를 돕기 위한 '스마트 미러'  
+# 독거노인 우울증 치료를 돕기 위한 '스마트 미러' (2019.01.24 ~ 2019.01.25)  
 * [동영상 링크](https://www.youtube.com/watch?v=Ac3FZgG-5a8 "유튜브")  
 * socket.io를 이용한 vue랑 python 통신: s.py <-> src/components/helloworld.vue  
 * 인하대, 서강대, 서울대, 숙명여대, 영남대, 이화여대, 카이스트, 포항공대, 한양대 참여 9개 대학
